@@ -1,0 +1,39 @@
+.container {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 15px;
+}
+
+.sub-content1, .sub-content2, .sub-content3 {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.sub-content1 {
+    background-color: cornflowerblue;
+}
+
+.sub-content2 {
+    background-color: palevioletred;
+}
+
+.sub-content3 {
+    background-color: whitesmoke;
+}
+
+p {
+    text-align: center;
+}
